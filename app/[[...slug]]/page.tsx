@@ -16,12 +16,6 @@ interface PageProps {
 const BUILDER_PUBLIC_API_KEY = process.env.NEXT_PUBLIC_BUILDER_API_KEY!;
 
 export default async function Page(props: PageProps) {
-  // NOTE: This import MUST be inside the Page component
-  const { initializeNodeRuntime } = await import(
-    "@builder.io/sdk-react/node/init"
-  );
-  initializeNodeRuntime();
-
   const urlPath = "/" + (props.params?.slug?.join("/") || "");
 
   const content = await fetchOneEntry({
