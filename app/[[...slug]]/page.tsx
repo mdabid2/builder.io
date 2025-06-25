@@ -18,12 +18,20 @@ const BUILDER_PUBLIC_API_KEY = process.env.NEXT_PUBLIC_BUILDER_API_KEY!;
 export default async function Page(props: PageProps) {
   const urlPath = "/" + (props.params?.slug?.join("/") || "");
 
-  const content = await fetchOneEntry({
-    options: props.searchParams,
-    apiKey: BUILDER_PUBLIC_API_KEY,
-    model: "page",
-    userAttributes: { urlPath },
-  });
+  let content = null;
+
+  try {
+    content = await fetchOneEntry({
+      options: props.searchParams,
+      apiKey: BUILDER_PUBLIC_API_KEY,
+      model: "page",
+      userAttributes: { urlPath },
+    });
+  } catch (error) {
+    // Handle API errors gracefully (like 401 unauthorized)
+    console.log("Builder.io API error:", error);
+    content = null;
+  }
 
   const canShowContent =
     content ||
