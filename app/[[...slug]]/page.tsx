@@ -7,21 +7,15 @@ export default function MyComponent(props: any) {
     <>
       <div className="page-container">
         <div className="builder-content">
-          <h1 className="welcome-title">
-            🎉 Builder.io + Next.js is Ready!
-          </h1>
+          <h1 className="welcome-title">🎉 Builder.io + Next.js is Ready!</h1>
           <p className="description">
             Your app is successfully set up, but you need to configure your
             Builder.io API key.
           </p>
-          <h2 className="section-title">
-            Next Steps:
-          </h2>
+          <h2 className="section-title">Next Steps:</h2>
           <ol className="steps-list">
             <li className="step-item">
-              <strong className="step-label">
-                Get your API key:
-              </strong>
+              <strong className="step-label">Get your API key:</strong>
               <br className="line-break" />
               <span>Sign up at</span>
               <a
@@ -35,24 +29,16 @@ export default function MyComponent(props: any) {
               <span>and copy your API key from the settings.</span>
             </li>
             <li className="step-item">
-              <strong className="step-label">
-                Update your environment:
-              </strong>
+              <strong className="step-label">Update your environment:</strong>
               <br className="line-break" />
               <span>Replace</span>
-              <code className="code-snippet">
-                your-api-key-here
-              </code>
+              <code className="code-snippet">your-api-key-here</code>
               <span>in</span>
-              <code className="code-snippet">
-                .env.local
-              </code>
+              <code className="code-snippet">.env.local</code>
               <span>with your actual API key.</span>
             </li>
             <li className="step-item">
-              <strong className="step-label">
-                Create content:
-              </strong>
+              <strong className="step-label">Create content:</strong>
               <br className="line-break" />
               <span>
                 Go to Builder.io and create a new page with the URL path
@@ -69,9 +55,7 @@ export default function MyComponent(props: any) {
           />
           <p className="tip-box">
             <span>💡 </span>
-            <strong className="tip-label">
-              Tip:
-            </strong>
+            <strong className="tip-label">Tip:</strong>
             <span>
               {" "}
               Once you've added your API key and created content, this page will
@@ -83,12 +67,8 @@ export default function MyComponent(props: any) {
       </div>
       <div className="login-container">
         <header className="login-header">
-          <h2 className="login-title">
-            Welcome!
-          </h2>
-          <p className="login-subtitle">
-            Choose one of the options to log in.
-          </p>
+          <h2 className="login-title">Welcome!</h2>
+          <p className="login-subtitle">Choose one of the options to log in.</p>
         </header>
         <form
           onSubmit={(e) => {
@@ -100,10 +80,7 @@ export default function MyComponent(props: any) {
           className="login-form"
         >
           <div className="form-field">
-            <label
-              htmlFor="username"
-              className="field-label"
-            >
+            <label htmlFor="username" className="field-label">
               Username
             </label>
             <input
@@ -115,15 +92,10 @@ export default function MyComponent(props: any) {
               autoComplete="off"
               className="field-input"
             />
-            <span className="error-message">
-              Please enter username.
-            </span>
+            <span className="error-message">Please enter username.</span>
           </div>
           <div className="form-field">
-            <label
-              htmlFor="password"
-              className="field-label"
-            >
+            <label htmlFor="password" className="field-label">
               Password
             </label>
             <input
@@ -133,9 +105,7 @@ export default function MyComponent(props: any) {
               autoComplete="off"
               className="field-input"
             />
-            <span className="error-message">
-              Please enter password.
-            </span>
+            <span className="error-message">Please enter password.</span>
             <button
               type="button"
               title="password eye"
@@ -158,7 +128,7 @@ export default function MyComponent(props: any) {
                 image="https://customeriq-dev2.axtria.com/auth/resources/9c81v/login/customeriqTheme/img/eye-open.svg"
                 className="eye-icon eye-open"
               />
-            </a>
+            </button>
           </div>
           <div className="form-actions">
             <div />
@@ -183,9 +153,7 @@ export default function MyComponent(props: any) {
               <div className="divider-line-container">
                 <hr className="divider-line" />
               </div>
-              <div className="divider-text">
-                or
-              </div>
+              <div className="divider-text">or</div>
               <div className="divider-line-container">
                 <hr className="divider-line" />
               </div>
@@ -202,17 +170,13 @@ export default function MyComponent(props: any) {
                   image="https://customeriq-dev2.axtria.com/auth/resources/9c81v/login/customeriqTheme/img/microsoft.svg"
                   className="sso-icon"
                 />
-                <span className="sso-text">
-                  Sign in with Axtria-IDP
-                </span>
+                <span className="sso-text">Sign in with Axtria-IDP</span>
               </a>
             </div>
           </div>
         </form>
         <footer className="login-footer">
-          <p className="footer-text">
-            By proceeding you agree to
-          </p>
+          <p className="footer-text">By proceeding you agree to</p>
           <p className="footer-links">
             <span>Axtria's</span>
             <span className="footer-link-wrapper">
