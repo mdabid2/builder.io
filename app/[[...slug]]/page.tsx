@@ -1,3 +1,5 @@
+"use client";
+
 import { RawImg } from "@components";
 
 export default function MyComponent(props: any) {
