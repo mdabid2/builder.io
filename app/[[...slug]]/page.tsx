@@ -26,7 +26,6 @@ export default function MyComponent(props: any) {
               >
                 builder.io
               </a>
-              <span>and copy your API key from the settings.</span>
             </li>
             <li className="step-item">
               <strong className="step-label">Update your environment:</strong>
