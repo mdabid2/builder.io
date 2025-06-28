@@ -123,6 +123,211 @@ body {
   pointer-events: auto;
 }
 
+/* Domino's Header */
+.dominos-header {
+  background-color: rgb(9, 92, 145);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-transform: uppercase;
+  width: 1170px;
+  padding: 0 15px;
+  font: 16px Oswald-Regular;
+}
+
+/* Order Section */
+.order-section {
+  color: rgb(255, 255, 255);
+  float: right;
+  min-height: 1px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  width: 25%;
+  font: 16px Oswald-Regular;
+}
+
+.order-inner {
+  color: rgb(255, 255, 255);
+  float: right;
+  overflow: hidden;
+  text-align: center;
+  text-transform: uppercase;
+  width: 80%;
+  padding: 5px 0;
+  font: 16px Oswald-Regular;
+}
+
+.order-button-wrapper {
+  color: rgb(255, 255, 255);
+  float: right;
+  min-height: 1px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  width: 83%;
+  font: 16px Oswald-Regular;
+}
+
+.order-button {
+  background-color: rgb(230, 26, 57);
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  text-align: left;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 0 10px;
+  font: 16px big-john;
+  text-decoration: none;
+  display: block;
+}
+
+.order-text {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+  padding: 10px 0 8px 20px;
+  font: 16px Oswald-Regular;
+}
+
+.order-arrow {
+  border-bottom: 10px solid rgba(0, 0, 0, 0);
+  border-left: 10px solid rgb(255, 255, 255);
+  border-top: 10px solid rgba(0, 0, 0, 0);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  float: right;
+  height: 0px;
+  margin-top: 10px;
+  text-align: left;
+  text-transform: uppercase;
+  width: 6%;
+  font: 16px big-john;
+}
+
+/* Logo Section */
+.logo-section {
+  color: rgb(255, 255, 255);
+  float: left;
+  min-height: 1px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  width: 17%;
+  padding: 0 15px;
+  font: 16px Oswald-Regular;
+}
+
+.hamburger-menu {
+  color: rgb(255, 255, 255);
+  display: none;
+  text-align: center;
+  text-transform: uppercase;
+  font: 16px Oswald-Regular;
+}
+
+.hamburger-line {
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  height: 3px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  margin: 6px 0;
+  font: 16px Oswald-Regular;
+  display: block;
+}
+
+.logo-link {
+  background-position: 0px 0px;
+  color: rgb(35, 106, 148);
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 8px 10px 10px;
+  font: 16px Oswald-Regular;
+  text-decoration: none;
+}
+
+.mobile-logo {
+  display: none;
+}
+
+.logo-img {
+  color: rgb(35, 106, 148);
+  cursor: pointer;
+  max-width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+  font: 16px Oswald-Regular;
+}
+
+/* Navigation Section */
+.nav-section {
+  color: rgb(255, 255, 255);
+  float: right;
+  min-height: 1px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  width: 58%;
+  padding: 0 15px;
+  font: 16px Oswald-Regular;
+}
+
+.nav-menu {
+  color: rgb(255, 255, 255);
+  display: table;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 20px auto 0;
+  font: 16px Oswald-Regular;
+  list-style: none;
+  padding: 0;
+}
+
+.nav-item {
+  color: rgb(255, 255, 255);
+  float: left;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  font: 16px Oswald-Regular;
+}
+
+.nav-link {
+  background-color: rgb(9, 92, 145);
+  border-right: 1px dotted rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  height: 20px;
+  letter-spacing: 1px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0 10px 5px;
+  font: 700 16px/23px Oswald-Regular;
+  text-decoration: none;
+}
+
+.nav-link-last {
+  border-right: none;
+}
+
+.nav-underline {
+  color: rgb(255, 255, 255);
+  height: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  margin: 5px auto;
+  font: 16px Oswald-Regular;
+  display: block;
+}
+
 /* Login Container */
 .login-container {
   background-color: rgb(255, 255, 255);
