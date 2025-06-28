@@ -65,6 +65,140 @@ export default function MyComponent(props: any) {
         </div>
         <div className="route-announcer" />
       </div>
+      <div className="dominos-header">
+        <div className="order-section">
+          <div className="order-inner">
+            <div className="order-button-wrapper">
+              <a
+                href="https://pizzaonline.dominos.co.in/?src=local&utm_source=restaurant-dominos-local&utm_medium=store-locator-buy-online&utm_campaign=store-local"
+                className="order-button"
+              >
+                <span className="order-text">Order online now</span>
+                <span className="order-arrow" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="logo-section">
+          <div className="hamburger-menu">
+            <span className="hamburger-line" />
+            <span className="hamburger-line" />
+            <span className="hamburger-line" />
+          </div>
+          <a
+            title="Domino's"
+            href="https://www.dominos.co.in/home"
+            className="logo-link"
+          >
+            <RawImg
+              alt="Domino's Logo"
+              title="Domino's"
+              image="https://www.dominos.co.in/theme2/front/images/dominos-logo-241x53.png"
+              className="logo-img"
+            />
+          </a>
+          <a
+            title="Domino's"
+            href="https://www.dominos.co.in/home"
+            className="logo-link mobile-logo"
+          >
+            <RawImg
+              alt="Domino's Logo"
+              title="Domino's"
+              image="https://www.dominos.co.in/theme2/front/images/mobile-images/mbl-logo.png"
+              className="logo-img"
+            />
+          </a>
+        </div>
+        <div className="nav-section">
+          <ul role="tablist" className="nav-menu">
+            <li className="nav-item">
+              <a
+                title="Our Menu"
+                role="tab"
+                target=""
+                href="https://www.dominos.co.in/menu"
+                className="nav-link"
+              >
+                OUR MENU
+              </a>
+              <span className="nav-underline" />
+            </li>
+            <li className="nav-item">
+              <a
+                title="OFFERS"
+                role="tab"
+                target=""
+                href="https://www.dominos.co.in/great-deals/online-pizza-coupons"
+                className="nav-link"
+              >
+                OFFERS
+              </a>
+              <span className="nav-underline" />
+            </li>
+            <li className="nav-item">
+              <a
+                title="OUR DEALS"
+                role="tab"
+                target=""
+                href="https://www.dominos.co.in/great-deals/online-pizza-coupons"
+                className="nav-link"
+              >
+                OUR DEALS
+              </a>
+              <span className="nav-underline" />
+            </li>
+            <li className="nav-item">
+              <a
+                title="STORE"
+                role=""
+                target="_blank"
+                href="https://www.dominos.co.in/store-location"
+                className="nav-link"
+              >
+                STORE FINDER
+              </a>
+              <span className="nav-underline" />
+            </li>
+            <li className="nav-item">
+              <a
+                title="INSIDE DOMINOS"
+                role=""
+                target=""
+                href="https://www.dominos.co.in/about-us"
+                className="nav-link"
+              >
+                INSIDE DOMINOS
+              </a>
+              <span className="nav-underline" />
+            </li>
+            <li className="nav-item">
+              <a
+                title="GIFT VOUCHERS"
+                role=""
+                target=""
+                href="https://www.dominos.co.in/gift-vouchers"
+                className="nav-link"
+              >
+                GIFT CARD
+              </a>
+              <span className="nav-underline" />
+            </li>
+            <li className="nav-item">
+              <a
+                title="contact"
+                role=""
+                target=""
+                href="https://www.dominos.co.in/contact"
+                className="nav-link nav-link-last"
+              >
+                CONTACT
+              </a>
+              <span className="nav-underline" />
+            </li>
+          </ul>
+        </div>
+      </div>
       <div className="login-container">
         <header className="login-header">
           <h2 className="login-title">Welcome!</h2>
